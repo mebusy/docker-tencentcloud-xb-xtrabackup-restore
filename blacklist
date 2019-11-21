@@ -1,0 +1,6 @@
+innodb_checksum_algorithm
+innodb_log_checksum_algorithm
+innodb_fast_checksum
+innodb_page_size
+innodb_log_block_size
+redo_log_version

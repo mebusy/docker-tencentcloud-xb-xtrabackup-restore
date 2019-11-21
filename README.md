@@ -1,2 +1,4 @@
-# docker-tencentcloud-xb-xtrabackup-restore
-start a mysql server container from xtrabackup file used by Tencent cloud mysql service.
+docker build -t tc_mysql .
+
+docker run -v`pwd`/hse.xb:/backup.xb -p33061:3306  --rm --name tc_mysql  tc_mysql 
+
