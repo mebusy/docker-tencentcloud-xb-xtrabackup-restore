@@ -11,7 +11,7 @@
 
 1. crond job 无法使用~/.bash_profile 中定义的环境变量， 需要手动配置到  run.sh中
 
-2. `pip install tencentcloud-sdk-python --user`
+2. `pip install tencentcloud-sdk-python`
 
 3. crontab jobs file: `/var/spool/cron/<user>`     (centos7)
 
